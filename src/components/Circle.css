@@ -1,0 +1,20 @@
+.circle{
+    position:relative;
+    width:1em;
+    height:1em;
+    background-color: green;
+    border-radius:1em;
+    margin:1em;
+    animation: topToBottom 2s 0s infinite alternate linear;
+}
+
+@keyframes topToBottom {
+  0%   {
+      top:0;
+      bottom:100%
+  }
+  100% {
+      top:97%;
+      bottom:-2%;
+  }
+}

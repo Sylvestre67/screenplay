@@ -1,0 +1,15 @@
+.screen-play{
+    position:absolute;
+    min-width:80%;
+    width:80%;
+
+    height:80%;
+    min-height:80%;
+
+    margin-top: 2em;
+    margin-left:10%;
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
